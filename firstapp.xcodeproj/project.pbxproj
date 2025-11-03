@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		381232312EB7BCC9000FAD1C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 381232302EB7BCC9000FAD1C /* SnapKit */; };
 		3874D6D62C6A4E0C00EA137D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874D6D52C6A4E0C00EA137D /* AppDelegate.swift */; };
 		3874D6D82C6A4E0C00EA137D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874D6D72C6A4E0C00EA137D /* SceneDelegate.swift */; };
 		3874D6DA2C6A4E0C00EA137D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874D6D92C6A4E0C00EA137D /* ViewController.swift */; };
@@ -58,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				381232312EB7BCC9000FAD1C /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 3874D6C92C6A4E0B00EA137D;
+			packageReferences = (
+				3812322F2EB7BCC9000FAD1C /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 3874D6D32C6A4E0C00EA137D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -607,6 +612,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3812322F2EB7BCC9000FAD1C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		381232302EB7BCC9000FAD1C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3812322F2EB7BCC9000FAD1C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		3874D6DE2C6A4E0D00EA137D /* firstapp.xcdatamodeld */ = {
