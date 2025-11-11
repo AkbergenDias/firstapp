@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		381232312EB7BCC9000FAD1C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 381232302EB7BCC9000FAD1C /* SnapKit */; };
+		3818EABC2EC3679900698B06 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3818EABB2EC3679900698B06 /* Item.swift */; };
+		3853DB2C2EC1BD4F00CEE1EB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3853DB2B2EC1BD4E00CEE1EB /* TableViewController.swift */; };
 		3874D6D62C6A4E0C00EA137D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874D6D52C6A4E0C00EA137D /* AppDelegate.swift */; };
 		3874D6D82C6A4E0C00EA137D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874D6D72C6A4E0C00EA137D /* SceneDelegate.swift */; };
 		3874D6DA2C6A4E0C00EA137D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874D6D92C6A4E0C00EA137D /* ViewController.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3818EABB2EC3679900698B06 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		3853DB2B2EC1BD4E00CEE1EB /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		3874D6D22C6A4E0C00EA137D /* firstapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3874D6D52C6A4E0C00EA137D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3874D6D72C6A4E0C00EA137D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,11 +110,13 @@
 				3874D6D52C6A4E0C00EA137D /* AppDelegate.swift */,
 				3874D6D72C6A4E0C00EA137D /* SceneDelegate.swift */,
 				3874D6D92C6A4E0C00EA137D /* ViewController.swift */,
+				3853DB2B2EC1BD4E00CEE1EB /* TableViewController.swift */,
 				3874D6DB2C6A4E0D00EA137D /* Main.storyboard */,
 				3874D6E12C6A4E1A00EA137D /* Assets.xcassets */,
 				3874D6E32C6A4E1A00EA137D /* LaunchScreen.storyboard */,
 				3874D6E62C6A4E1A00EA137D /* Info.plist */,
 				3874D6DE2C6A4E0D00EA137D /* firstapp.xcdatamodeld */,
+				3818EABB2EC3679900698B06 /* Item.swift */,
 			);
 			path = firstapp;
 			sourceTree = "<group>";
@@ -269,6 +275,8 @@
 				3874D6DA2C6A4E0C00EA137D /* ViewController.swift in Sources */,
 				3874D6D62C6A4E0C00EA137D /* AppDelegate.swift in Sources */,
 				3874D6E02C6A4E0D00EA137D /* firstapp.xcdatamodeld in Sources */,
+				3853DB2C2EC1BD4F00CEE1EB /* TableViewController.swift in Sources */,
+				3818EABC2EC3679900698B06 /* Item.swift in Sources */,
 				3874D6D82C6A4E0C00EA137D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
